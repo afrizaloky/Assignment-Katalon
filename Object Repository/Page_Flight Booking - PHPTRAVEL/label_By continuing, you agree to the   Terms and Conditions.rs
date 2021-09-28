@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_By continuing, you agree to the   Ter_355a10</name>
+   <name>label_By continuing, you agree to the   Terms and Conditions</name>
    <tag></tag>
-   <elementGuidId>0f73e90d-890c-423c-8f1d-39788fb20d6a</elementGuidId>
+   <elementGuidId>aa145de3-72cf-43ba-9763-a283583f9c8b</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>div.custom-checkbox > label</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='paddle'])[1]/following::label[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.custom-checkbox > label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
