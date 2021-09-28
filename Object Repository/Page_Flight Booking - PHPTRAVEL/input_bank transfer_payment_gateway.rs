@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Flying From_from</name>
+   <name>input_bank transfer_payment_gateway</name>
    <tag></tag>
-   <elementGuidId>0879be54-efb6-4a25-bc59-689e38c7eec7</elementGuidId>
+   <elementGuidId>fa7f0027-ebda-450d-93ea-e2a1d55475ad</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#autocomplete</value>
+         <key>XPATH</key>
+         <value>//input[@id='gateway_pay-later']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='autocomplete']</value>
+         <key>CSS</key>
+         <value>#gateway_pay-later</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,64 +28,62 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-
-      <value>form-control autocomplete-airport yes</value>
-
+      <value>form-check-input mx-auto</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>search</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Flying From</value>
+      <value>radio</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>from</value>
+      <value>payment_gateway</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>autocomplete</value>
+      <value>gateway_pay-later</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>pay-later</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;autocomplete&quot;)</value>
+      <value>id(&quot;gateway_pay-later&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='autocomplete']</value>
+      <value>//input[@id='gateway_pay-later']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='onereturn']/div/div/div/div/div/div/input</value>
+      <value>//ul[@id='myTab']/div[2]/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div/div/div/div/input</value>
+      <value>//ul/div[2]/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - Flight Booking</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2e164a2-5a0d-4451-98f6-e19334d826ef</testCaseGuid>
+   <variable>
+      <defaultValue>'MR'</defaultValue>
+      <description></description>
+      <id>5e44fa7c-7dac-4c74-8d59-8faaad91aab5</id>
+      <masked>false</masked>
+      <name>Title</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pay Later'</defaultValue>
+      <description></description>
+      <id>28a1ea55-4f74-4baa-9be5-c058328b4f88</id>
+      <masked>false</masked>
+      <name>Payment</name>
+   </variable>
+</TestCaseEntity>

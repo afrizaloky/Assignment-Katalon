@@ -28,7 +28,9 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control autocomplete-airport focus yes</value>
+
+      <value>form-control autocomplete-airport focus</value>
+
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
