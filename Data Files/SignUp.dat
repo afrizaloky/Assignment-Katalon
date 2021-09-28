@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>flightInformation</name>
+   <name>SignUp</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>7e1b11f6-9b89-4b89-ae0f-dd4df932cba7</dataFileGUID>
+   <dataFileGUID>a99c05c5-f519-46c6-aabd-26e0946f228c</dataFileGUID>
    <dataSourceUrl>Data Collection/Data_Management_.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>FlightInformation</sheetName>
+   <sheetName>DataSignUp</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

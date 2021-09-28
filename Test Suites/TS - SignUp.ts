@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS - SignUp</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>188d8923-3cd2-48ed-9705-068cf421b317</testSuiteGuid>
+   <testCaseLink>
+      <guid>c35f14e5-756d-40a7-81ee-d703b6e2285f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC - Sign UP</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6a761625-ce5b-4470-abe5-def32314573b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/SignUp</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>6a761625-ce5b-4470-abe5-def32314573b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>firstName</value>
+         <variableId>3c302950-bcbe-48a7-b70a-517f7819825f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6a761625-ce5b-4470-abe5-def32314573b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>lastName</value>
+         <variableId>ce1a1bf7-16d3-44c4-a001-5e9ede1a62a2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6a761625-ce5b-4470-abe5-def32314573b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>phone</value>
+         <variableId>f6a1a62e-adae-40e3-bf94-187e5fb7ccbd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6a761625-ce5b-4470-abe5-def32314573b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>626a1360-513c-41c8-848b-9c16708c93c2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6a761625-ce5b-4470-abe5-def32314573b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>03919677-b06e-4d49-bdba-8ca6b4fd34fc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6a761625-ce5b-4470-abe5-def32314573b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>accountType</value>
+         <variableId>5aa16d68-3a82-48b6-959a-3e8b622b658f</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

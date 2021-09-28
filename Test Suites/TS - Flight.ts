@@ -28,37 +28,37 @@
       <variableLink>
          <testDataLinkId>d8602956-538a-44a2-a30a-ae6e475568d2</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Trip Type</value>
+         <value>TripType</value>
          <variableId>58a634f0-7f9e-4c85-94c4-a49a324e4b55</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>d8602956-538a-44a2-a30a-ae6e475568d2</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Class</value>
+         <value>ClassType</value>
          <variableId>605294e6-edc5-4d1f-b3a6-784a61861901</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>d8602956-538a-44a2-a30a-ae6e475568d2</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Flying From</value>
+         <value>FlyingFrom</value>
          <variableId>032936ca-c15c-45f1-9c50-2238a6811dc4</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>d8602956-538a-44a2-a30a-ae6e475568d2</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>To Destination</value>
+         <value>ToDestination</value>
          <variableId>2c6ba11a-b3be-40cf-b51d-cfa844f7fd5a</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>d8602956-538a-44a2-a30a-ae6e475568d2</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Departure Date</value>
+         <value>DepartureDate</value>
          <variableId>bd81a24c-54e7-4b33-9659-2912861dcc87</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>d8602956-538a-44a2-a30a-ae6e475568d2</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Return Date</value>
+         <value>ReturnDate</value>
          <variableId>3e32f52d-65e3-49ab-bf8b-8b66cbc02379</variableId>
       </variableLink>
       <variableLink>

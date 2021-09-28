@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>flightInformation</name>
+   <name>Booking</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>7e1b11f6-9b89-4b89-ae0f-dd4df932cba7</dataFileGUID>
+   <dataFileGUID>5c0177d3-c2c8-488f-aaea-25a2a25e9cb9</dataFileGUID>
    <dataSourceUrl>Data Collection/Data_Management_.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
+   <properties>
+      <entry>
+         <key>readAsString</key>
+         <value>true</value>
+      </entry>
+   </properties>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>FlightInformation</sheetName>
+   <sheetName>DataCustomer</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

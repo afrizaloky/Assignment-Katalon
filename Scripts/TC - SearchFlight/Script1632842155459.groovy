@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://www.phptravels.net/')
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard - PHPTRAVEL/a_flights'))
+WebUI.click(findTestObject('Page_PHPTRAVEL - PHPTRAVEL/button_flights'))
 
 if (TripType == 'one-way') {
     WebUI.click(findTestObject('Page_Search Flight- PHPTRAVEL/input_one-way_trip'))
@@ -35,7 +35,7 @@ if (TripType == 'round-trip') {
 
 WebUI.setText(findTestObject('Object Repository/Page_Search Flight- PHPTRAVEL/input_Flying From_from'), FlyingFrom)
 
-WebUI.click(findTestObject('Page_Search Hotels - PHPTRAVEL/div_BSK Biskra'))
+//WebUI.click(findTestObject('Page_Search Hotels - PHPTRAVEL/div_BSK Biskra'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Search Flight- PHPTRAVEL/input_Departure Date_depart'), DepartureDate)
 

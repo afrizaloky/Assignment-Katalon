@@ -48,9 +48,11 @@ WebUI.setText(findTestObject('Object Repository/Page_Flight Booking - PHPTRAVEL/
 
 WebUI.setText(findTestObject('Object Repository/Page_Flight Booking - PHPTRAVEL/input_Expiry Date_passport_year_1'), '3')
 
-WebUI.click(findTestObject('Page_Flight Booking - PHPTRAVEL/input_Payment Method_payment_gateway'))
+WebUI.click(findTestObject('Page_Flight Booking - PHPTRAVEL/input_wallet balance_payment_gateway'))
 
-WebUI.check(findTestObject('Page_Flight Booking - PHPTRAVEL/label_By continuing, you agree to the   Ter_355a10'))
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Page_Flight Booking - PHPTRAVEL/label_By continuing, you agree to the   Terms and Conditions'))
 
 WebUI.click(findTestObject('Object Repository/Page_Flight Booking - PHPTRAVEL/button_Confirm Booking'))
 
