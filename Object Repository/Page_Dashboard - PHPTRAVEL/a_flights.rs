@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://phptravels.net/flights</value>
+      <value>https://www.phptravels.net/flights</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/header[@class=&quot;header-area&quot;]/div[@class=&quot;header-menu-wrapper padding-right-100px padding-left-100px&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;menu-wrapper&quot;]/div[@class=&quot;main-menu-content&quot;]/nav[1]/ul[1]/li[3]/a[@class=&quot;waves-effect&quot;]</value>
+      <value>/html[1]/body[@class=&quot;fixed-nav&quot;]/header[@class=&quot;header-area&quot;]/div[@class=&quot;header-menu-wrapper padding-right-100px padding-left-100px&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;menu-wrapper&quot;]/div[@class=&quot;main-menu-content&quot;]/nav[1]/ul[1]/li[3]/a[@class=&quot;waves-effect&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -105,7 +105,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'https://phptravels.net/flights')]</value>
+      <value>//a[contains(@href, 'https://www.phptravels.net/flights')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,5 +113,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//nav/ul/li[3]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://phptravels.net/flights')]</value>
    </webElementXpaths>
 </WebElementEntity>
