@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://www.phptravels.net/')
 
-WebUI.click(findTestObject('Object Repository/Page_Dashboard - PHPTRAVEL/a_flights'))
+WebUI.click(findTestObject('Page_PHPTRAVEL - PHPTRAVEL/button_flights'))
 
 if (TripType == 'one-way') {
     WebUI.click(findTestObject('Page_Search Flight- PHPTRAVEL/input_one-way_trip'))
@@ -30,7 +30,7 @@ if (TripType == 'round-trip') {
 
     WebUI.setText(findTestObject('Page_Search Hotels - PHPTRAVEL/input_Return Date_returning'), ReturnDate)
 
-    WebUI.click(findTestObject('Page_Search Hotels - PHPTRAVEL/form_One Way                                                                                                                         Round Trip'))
+    WebUI.click(findTestObject('Page_PHPTRAVEL - PHPTRAVEL/div_One Way                                _07b128'))
 }
 
 WebUI.setText(findTestObject('Object Repository/Page_Search Flight- PHPTRAVEL/input_Flying From_from'), FlyingFrom)
@@ -39,7 +39,7 @@ WebUI.click(findTestObject('Page_Search Hotels - PHPTRAVEL/div_BSK Biskra'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Search Flight- PHPTRAVEL/input_Departure Date_depart'), DepartureDate)
 
-WebUI.click(findTestObject('Page_Search Hotels - PHPTRAVEL/form_One Way                                                                                                                         Round Trip'))
+WebUI.click(findTestObject('Page_PHPTRAVEL - PHPTRAVEL/div_One Way                                _07b128'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Search Flight- PHPTRAVEL/input_To Destination_to'), ToDestination)
 
@@ -61,12 +61,12 @@ WebUI.setText(findTestObject('Object Repository/Page_Search Flight- PHPTRAVEL/in
 
 WebUI.click(findTestObject('Page_Search Hotels - PHPTRAVEL/select_Economy                Business     _dbb6ab'))
 
-WebUI.selectOptionByValue(findTestObject('Page_Search Hotels - PHPTRAVEL/select_Economy                Business     _dbb6ab'), 
+WebUI.selectOptionByValue(findTestObject('Page_PHPTRAVEL - PHPTRAVEL/select_Economy                Business     _dbb6ab'), 
     ClassType, true)
 
-WebUI.click(findTestObject('Page_Search Hotels - PHPTRAVEL/button_Search'))
+WebUI.click(findTestObject('Page_PHPTRAVEL - PHPTRAVEL/span_Search'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_Search Flight- PHPTRAVEL/button_USD 252        Book Now'))
+WebUI.click(findTestObject('Page_Flights - PHPTRAVEL/button_USD 657        Book Now'))
 
