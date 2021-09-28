@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Flying From_from</name>
+   <name>input_Departure Date_depart</name>
    <tag></tag>
-   <elementGuidId>0879be54-efb6-4a25-bc59-689e38c7eec7</elementGuidId>
+   <elementGuidId>45099408-927b-41bf-a6ea-095dae4f1440</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#autocomplete</value>
+         <value>#departure</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='autocomplete']</value>
+         <value>//input[@id='departure']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,64 +28,62 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-
-      <value>form-control autocomplete-airport yes</value>
-
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>search</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Flying From</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>from</value>
+      <value>depart form-control</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>autocomplete</value>
+      <value>departure</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>depart</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>01-10-2021</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;autocomplete&quot;)</value>
+      <value>id(&quot;onereturn&quot;)/div[@class=&quot;col&quot;]/div[@class=&quot;row g-0&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;input-box&quot;]/div[@class=&quot;form-group&quot;]/input[@id=&quot;departure&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='autocomplete']</value>
+      <value>//input[@id='departure']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='onereturn']/div/div/div/div/div/div/input</value>
+      <value>//div[@id='onereturn']/div[2]/div/div/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div/div/div/div/input</value>
+      <value>//div[2]/div/div/div/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

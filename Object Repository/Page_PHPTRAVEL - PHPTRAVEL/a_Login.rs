@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_flights</name>
+   <name>a_Login</name>
    <tag></tag>
-   <elementGuidId>86931abe-4c70-4ba3-b01b-40ae3af9a7f3</elementGuidId>
+   <elementGuidId>74d36d77-170f-4af4-ba40-eb7d67a1cc8f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>a.theme-btn.theme-btn-small.theme-btn-transparent.ml-1.waves-effect</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'flights')]</value>
+         <value>(//a[contains(text(),'Login')])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,104 +28,76 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-
-      <value>https://phptravels.net/flights</value>
-
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>home</value>
+      <value>https://www.phptravels.net/login</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value> waves-effect</value>
+      <value>theme-btn theme-btn-small theme-btn-transparent ml-1 waves-effect</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>flights</value>
+      <value>Login</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-
-      <value>/html[1]/body[1]/header[@class=&quot;header-area&quot;]/div[@class=&quot;header-menu-wrapper padding-right-100px padding-left-100px&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;menu-wrapper&quot;]/div[@class=&quot;main-menu-content&quot;]/nav[1]/ul[1]/li[3]/a[@class=&quot;waves-effect&quot;]</value>
-
+      <value>/html[1]/body[1]/header[@class=&quot;header-area&quot;]/div[@class=&quot;header-top-bar padding-right-100px padding-left-100px&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row align-items-center&quot;]/div[@class=&quot;col-lg-6&quot;]/div[@class=&quot;header-top-content&quot;]/div[@class=&quot;header-right d-flex align-items-center justify-content-end&quot;]/a[@class=&quot;theme-btn theme-btn-small theme-btn-transparent ml-1 waves-effect&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'flights')]</value>
+      <value>(//a[contains(text(),'Login')])[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hotels'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Signup'])[3]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[2]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='cars'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::a[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='visa'])[1]/preceding::a[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='flights']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hotels'])[1]/preceding::a[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-
-      <value>//a[contains(@href, 'https://phptravels.net/flights')]</value>
-
+      <value>(//a[contains(@href, 'https://www.phptravels.net/login')])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//nav/ul/li[3]/a</value>
+      <value>//a[2]</value>
    </webElementXpaths>
-
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, 'https://phptravels.net/flights')]</value>
-   </webElementXpaths>
-
+</WebElementEntity>
