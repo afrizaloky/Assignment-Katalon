@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_By continuing, you agree to the   Ter_355a10</name>
+   <name>div_Pay With  bank transfer</name>
    <tag></tag>
-   <elementGuidId>0f73e90d-890c-423c-8f1d-39788fb20d6a</elementGuidId>
+   <elementGuidId>97dfc0fa-b98b-46df-9093-e131a666d94b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.custom-checkbox > label</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@for = 'agreechb']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;agreechb&quot;]</value>
+         <value>//ul[@id='myTab']/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.form-check.nav-link.p-2.px-3.m-2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,55 +21,65 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>for</name>
-      <type>Main</type>
-      <value>agreechb</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-check nav-link p-2 px-3 m-2</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>By continuing, you agree to the    Terms and Conditions</value>
+      <value>
+        
+        
+        
+        
+        
+        
+        Pay With  bank transfer
+        
+        
+        </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;fixed-nav&quot;]/div[@class=&quot;booking_data&quot;]/form[@class=&quot;book&quot;]/section[@class=&quot;booking-area padding-top-50px padding-bottom-70px&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-8&quot;]/div[@class=&quot;col-lg-12&quot;]/div[@class=&quot;input-box&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;custom-checkbox&quot;]/label[1]</value>
+      <value>id(&quot;myTab&quot;)/div[@class=&quot;col-md-4 mb-1 gateway_bank-transfer&quot;]/div[@class=&quot;form-check nav-link p-2 px-3 m-2&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='paddle'])[1]/following::label[1]</value>
+      <value>//ul[@id='myTab']/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm Booking'])[1]/preceding::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Method'])[1]/following::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='By continuing, you agree to the']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Expiry Date'])[2]/following::div[10]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div/div/div/label</value>
+      <value>//ul/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

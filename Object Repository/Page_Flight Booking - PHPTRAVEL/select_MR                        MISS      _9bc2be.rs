@@ -1,102 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_USD 1068        Book Now</name>
+   <name>select_MR                        MISS      _9bc2be</name>
    <tag></tag>
-   <elementGuidId>83a0541e-74c3-478f-9676-201dcaaf4615</elementGuidId>
+   <elementGuidId>fe4ccc70-c8a3-48cc-9a5e-a98f6b56cf88</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-primary.btn-block.theme-search-results-item-price-btn.ladda.waves-effect</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'submit']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>//select[@name='title_1']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;title_1&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>name</name>
       <type>Main</type>
-      <value>submit</value>
+      <value>title_1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary btn-block theme-search-results-item-price-btn ladda waves-effect</value>
+      <value>form-select</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-style</name>
-      <type>Main</type>
-      <value>zoom-in</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>
-        USD 1068
-        Book Now</value>
+                        MR
+                        MISS
+                        MRS
+                        </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;MixItUpC04173&quot;)/ul[@class=&quot;catalog-panel&quot;]/li[@class=&quot;mix all  oneway_3&quot;]/div[@class=&quot;theme-search-results-item _mb-10 theme-search-results-item-rounded theme-search-results-item- waves-effect&quot;]/form[@class=&quot;row&quot;]/div[@class=&quot;row g-0&quot;]/div[@class=&quot;col-md-2&quot;]/div[@class=&quot;theme-search-results-item-book row&quot;]/button[@class=&quot;btn btn-primary btn-block theme-search-results-item-price-btn ladda waves-effect&quot;]</value>
+      <value>/html[1]/body[@class=&quot;fixed-nav&quot;]/div[@class=&quot;booking_data&quot;]/form[@class=&quot;book&quot;]/section[@class=&quot;booking-area padding-top-50px padding-bottom-70px&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-8&quot;]/div[@class=&quot;form-box payment-received-wrap mb-2&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;card mb-3&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-2&quot;]/select[@class=&quot;form-select&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@type='submit']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//section[@id='MixItUpC04173']/ul/li/div/form/div/div[2]/div/button</value>
+      <value>//select[@name='title_1']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Flight Class'])[4]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='CZL'])[2]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='First Name'])[2]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Name'])[2]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div/div[2]/div/button</value>
+      <value>//div[2]/div/div[2]/div/div/select</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -15,7 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://www.phptravels.net/flights/booking')
+WebUI.openBrowser('https://phptravels.net/en/usd/flights/aey/alg/oneway/economy/01-10-2021/1/0/0')
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('Page_Flights - PHPTRAVEL/button_USD 1068        Book Now'))
 
 WebUI.selectOptionByLabel(findTestObject('Page_Flight Booking - PHPTRAVEL/select_MR                        MISS                        MRS'), 
     'MRS', false)
@@ -24,40 +28,31 @@ WebUI.setText(findTestObject('Page_Flight Booking - PHPTRAVEL/input_First Name_f
 
 WebUI.setText(findTestObject('Page_Flight Booking - PHPTRAVEL/input_Last Name_lastname_1'), 'banni')
 
-WebUI.selectOptionByLabel(findTestObject('Page_Flight Booking - PHPTRAVEL/select_SelectAfghanistanAland IslandsAlbani_5b78e7'), 
-    'Indonesia', false)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Flight Booking - PHPTRAVEL/select_SelectAfghanistanAland IslandsAlbani_5b78e7_1'), 
+    'ID', true)
 
-WebUI.selectOptionByLabel(findTestObject('Page_Flight Booking - PHPTRAVEL/select_Month_DOB JanuaryFebruaryMarchAprilMayJuneJulyAugustSeptemberOctoberNovemberDecember'), 
-    'october', false)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Flight Booking - PHPTRAVEL/select_Month                        January_9d2d04'), 
+    '04', true)
 
-WebUI.setText(findTestObject('Page_Flight Booking - PHPTRAVEL/input_Date of Birth_dob_day_1'), '9')
+WebUI.setText(findTestObject('Object Repository/Page_Flight Booking - PHPTRAVEL/input_Date of Birth_dob_day_1'), '3')
 
-WebUI.setText(findTestObject('Page_Flight Booking - PHPTRAVEL/input_Date of Birth_dob_year_1'), '2000')
+WebUI.setText(findTestObject('Object Repository/Page_Flight Booking - PHPTRAVEL/input_Date of Birth_dob_year_1'), '3')
 
-WebUI.selectOptionByLabel(findTestObject('Page_Flight Booking - PHPTRAVEL/select_Month_ED JanuaryFebruaryMarchAprilMayJuneJulyAugustSeptemberOctoberNovemberDecember'), 
-    'desember', false)
+WebUI.setText(findTestObject('Object Repository/Page_Flight Booking - PHPTRAVEL/input_Passport or ID number_passport_1'), 
+    '3')
 
-WebUI.setText(findTestObject('Page_Flight Booking - PHPTRAVEL/input_Passport or ID number_passport_1'), '12132445', FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Flight Booking - PHPTRAVEL/select_Month                        January_9d2d04_1'), 
+    '01', true)
 
-WebUI.setText(findTestObject('Page_Flight Booking - PHPTRAVEL/input_Expiry Date_passport_day_1'), '9')
+WebUI.setText(findTestObject('Object Repository/Page_Flight Booking - PHPTRAVEL/input_Expiry Date_passport_day_1'), '3')
 
-WebUI.setText(findTestObject('Page_Flight Booking - PHPTRAVEL/input_Expiry Date_passport_year_1'), '2021')
+WebUI.setText(findTestObject('Object Repository/Page_Flight Booking - PHPTRAVEL/input_Expiry Date_passport_year_1'), '3')
 
-if (Paymant == 'Bank Transfer') {
-    WebUI.click(findTestObject('Page_Flight Booking - PHPTRAVEL/input_bank transfer_payment_gateway'))
-} else if (Paymant == 'Pay Later') {
-    WebUI.click(findTestObject('Page_Flight Booking - PHPTRAVEL/input_Payment Method_payment_gateway'))
-} else if (Paymant == 'Wallet Balance') {
-    WebUI.click(findTestObject('Page_Flight Booking - PHPTRAVEL/input_wallet balance_payment_gateway'))
-} else if (Paymant == 'Paypal') {
-    WebUI.click(findTestObject('Page_Flight Booking - PHPTRAVEL/input_paypal_payment_gateway'))
-} else if (Paymant == 'Stripe') {
-    WebUI.click(findTestObject('Page_Flight Booking - PHPTRAVEL/input_stripe_payment_gateway'))
-} else if (Paymant == 'Paddle') {
-    WebUI.click(findTestObject(null))
-}
+WebUI.click(findTestObject('Page_Flight Booking - PHPTRAVEL/input_Payment Method_payment_gateway'))
 
-WebUI.click(findTestObject('Page_Flight Booking - PHPTRAVEL/label_By continuing, you agree to the   Terms and Conditions'))
+WebUI.check(findTestObject('Page_Flight Booking - PHPTRAVEL/label_By continuing, you agree to the   Ter_355a10'))
 
-WebUI.click(findTestObject('Page_Flight Booking - PHPTRAVEL/button_Confirm Booking'))
+WebUI.click(findTestObject('Object Repository/Page_Flight Booking - PHPTRAVEL/button_Confirm Booking'))
+
+WebUI.closeBrowser()
 
