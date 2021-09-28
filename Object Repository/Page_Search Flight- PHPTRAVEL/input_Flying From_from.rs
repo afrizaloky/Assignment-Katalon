@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Flying From_from</name>
    <tag></tag>
-   <elementGuidId>0879be54-efb6-4a25-bc59-689e38c7eec7</elementGuidId>
+   <elementGuidId>8645f634-9ff6-479c-8a5a-810af90c11be</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -28,9 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-
       <value>form-control autocomplete-airport yes</value>
-
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
