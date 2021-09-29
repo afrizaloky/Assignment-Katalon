@@ -97,5 +97,17 @@
          <value>book_ExpMonth</value>
          <variableId>08d8b6cd-ccd2-41b3-8495-c676b2ef46a7</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>18171ce8-2f1a-49e2-8a93-3740dd476fb0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ff649e50-83a0-47cb-8931-771195a2eb4a</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
