@@ -5,6 +5,3 @@ Kelompok 4
 3. Jefrison Banni
 4. Lawrenxius Benny
 5. Muhamad Setiawan Wicaksono
-
-
-    $\int_{a}^{b} x_i^3 \,dx$
