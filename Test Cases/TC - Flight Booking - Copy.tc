@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>4954873d-0060-4b46-92e0-943d33557dff</testCaseGuid>
    <variable>
-      <defaultValue>'MR'</defaultValue>
+      <defaultValue>'Mrs'</defaultValue>
       <description></description>
       <id>bb7b1b1d-38fa-4cbb-832b-8170b8074847</id>
       <masked>false</masked>
@@ -20,21 +20,21 @@
       <name>Payment</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'First'</defaultValue>
       <description></description>
       <id>477b937d-c4cd-41af-bb49-8ee742f86420</id>
       <masked>false</masked>
       <name>book_FirstName</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Last'</defaultValue>
       <description></description>
       <id>e4640c36-6458-4e4f-8122-87368686a13e</id>
       <masked>false</masked>
       <name>book_LastName</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'ID'</defaultValue>
       <description></description>
       <id>45c17976-3790-4dec-8838-42b035eee1ad</id>
       <masked>false</masked>
