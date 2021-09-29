@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>flightInformation</name>
+   <name>Test</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>7e1b11f6-9b89-4b89-ae0f-dd4df932cba7</dataFileGUID>
-   <dataSourceUrl>Data Collection/Data_Management_.xlsx</dataSourceUrl>
+   <dataFileGUID>81214cb4-ed0a-45bc-b655-fdfdb9bc2341</dataFileGUID>
+   <dataSourceUrl>C:\Users\afrizaloky\Katalon Studio\Assignment Katalon\Data Collection\Data_Management_.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>true</isInternalPath>
+   <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>FlightInformation</sheetName>
+   <sheetName>Test</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

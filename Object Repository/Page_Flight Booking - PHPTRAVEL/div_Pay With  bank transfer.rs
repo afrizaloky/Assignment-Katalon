@@ -1,93 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Confirm Booking</name>
+   <name>div_Pay With  bank transfer</name>
    <tag></tag>
-   <elementGuidId>0bbd6f03-8fcb-40e9-bb1e-d63a65d6e856</elementGuidId>
+   <elementGuidId>97dfc0fa-b98b-46df-9093-e131a666d94b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#booking</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;booking&quot;)</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//button[@id='booking']</value>
+         <value>//ul[@id='myTab']/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.form-check.nav-link.p-2.px-3.m-2</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>theme-btn book waves-effect</value>
+      <value>form-check nav-link p-2 px-3 m-2</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>booking</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Confirm Booking</value>
+      <value>
+        
+        
+        
+        
+        
+        
+        Pay With  bank transfer
+        
+        
+        </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;booking&quot;)</value>
+      <value>id(&quot;myTab&quot;)/div[@class=&quot;col-md-4 mb-1 gateway_bank-transfer&quot;]/div[@class=&quot;form-check nav-link p-2 px-3 m-2&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//button[@id='booking']</value>
+      <value>//ul[@id='myTab']/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Booking Details'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Method'])[1]/following::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Confirm Booking']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Expiry Date'])[2]/following::div[10]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/div/button</value>
+      <value>//ul/div/div</value>
    </webElementXpaths>
 </WebElementEntity>
